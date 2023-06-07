@@ -1,0 +1,135 @@
+/* App.css */
+
+/* Navbar */
+body {
+  font-family: Arial, sans-serif; /* Change the font family here */
+}
+.app-container{
+  margin: 10px;
+  padding: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.navbar li:first-child {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+/* Date Display and Time Format Options */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  
+}
+
+
+.options button {
+  font-size: 16px;
+   
+  padding: 8px 12px;
+  border-color: black;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.options button.active {
+  color: #fff;
+  background-color: black;
+  border-radius: 1px;
+  margin: 4px;
+}
+
+/* Time Container */
+.time-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.time-zone {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: -100px;
+  /* padding: 0; */
+  /* margin-right: 10px; */
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.clock {
+  font-size: 150px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.date {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
+
+/* Popular Time Zones */
+.time-zones {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.time-zones h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.time-zones ul {
+  display: inline-flex;
+  list-style: none;
+  justify-content: space-between;
+  /* padding: 10px;
+  margin: 10px; */
+}
+
+.time-zones li {
+  margin: 20px;
+  /* padding: 20px; */
+}
+
+.time-zones button {
+  font-size: 26px;
+  padding: 18px 30px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.time-zones button.active {
+  background-color: #ccc;
+  color: #333;
+}
